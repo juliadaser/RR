@@ -64,8 +64,7 @@ document.body.addEventListener("click", function () {
 function translateText() {
   const textToTranslate =
     "there are as many Internet Architectures as there are Users";
-  //var apiKey = config.API_KEY;
-  var apiKey = process.env.API_KEY;
+  var apiKey = config.API_KEY;
   const languages = [
     "fr",
     "es",
