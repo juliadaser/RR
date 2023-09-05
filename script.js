@@ -8,6 +8,8 @@ rgb(255, 255, 255) = white
 COLOR INSPIRATION FROM : https://aifont.process.studio/
 */
 
+require('dotenv').config()
+
 colorSets = [
   ["rgb(234, 255, 0)", "rgb(0, 0, 0)"],
   ["rgb(20, 31, 245", "rgb(255, 255, 255)"],
@@ -64,7 +66,7 @@ document.body.addEventListener("click", function () {
 function translateText() {
   const textToTranslate =
     "there are as many Internet Architectures as there are Users";
-  var apiKey = config.API_KEY;
+  var apiKey = process.env.API_KEY;
   const languages = [
     "fr",
     "es",
