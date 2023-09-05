@@ -9,7 +9,7 @@ COLOR INSPIRATION FROM : https://aifont.process.studio/
 */
 
 //require('dotenv').config()
-import 'dotenv/conifg'
+import '/dotenv/conifg'
 
 colorSets = [
   ["rgb(234, 255, 0)", "rgb(0, 0, 0)"],
